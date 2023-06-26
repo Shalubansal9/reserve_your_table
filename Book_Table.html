@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+    <link rel="stylesheet" href="Book_Table.css">
+</head>
+<body>
+    <section class="banner">
+        <h2>Reserve Your Table </h2>
+        <div class="card-container">
+            <div class="card-img">
+                <!-- image is styled in css -->
+            </div>
+            <div class="card-content">
+                <h3>Reservation</h3>
+                <form>
+                    <div class="form-row">
+                        <input type="date" placeholder="dd-mm-yyyy" min="25-04-2023" max="25-05-2023">
+                        <select name="Hours">
+                            <option value="Hour-Select">Select Time</option>
+                            <option value="10">10:00</option>
+                            <option value="12">12:00</option>
+                            <option value="14">14:00</option>
+                            <option value="16">16:00</option>
+                            <option value="18">18:00</option>
+                            <option value="20">20:00</option>
+                            <option value="22">22:00</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" placeholder="Full Name">
+                        <input type="text" placeholder="Phone Number">
+                    </div>
+                    <div class="form-row">
+                        <input type="number" placeholder="How many Guests..?" min="1">
+                    </div>
+                    <div class="form-row">
+                        <input type="submit" value="Book Table">
+                    </div>
+                </form>
+    </section>
+            </div>
+        </div>
+        
+</body>
+</html>
